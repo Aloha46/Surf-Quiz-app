@@ -1,0 +1,201 @@
+body * {
+  box-sizing: border-box;
+}
+html {
+	background-image: url("http://renatures.com/wp-content/uploads/2016/09/beaches-water-summer-blue-surf-ocean-beautiful-green-clear-ohau-clouds-sand-wave-crystal-crystalline-tube-beach-sea-wallpaper-island.jpg");
+	margin-bottom: 80px;
+
+}
+
+body {
+	margin-top: 30px;
+	
+}
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.signup-form {
+	width: 100%;
+}
+
+
+
+
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1, h2 {
+	margin: auto;
+	font-size: 2em;
+	color: red;
+	text-align: center;
+}
+
+#question h1 {
+	color: green;
+
+}
+
+img {
+width: 150 px;
+height: 120 px
+}
+
+#surfer-clipart {
+width:128px;
+height:105px
+}
+
+.button {
+
+	margin-bottom: 50px;
+	margin-top: 30px;
+
+	
+    cursor: pointer;
+}
+
+button {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font: bold;
+    margin-top: 25px;
+	
+}
+
+button:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+#container {
+
+height: 100%;
+margin: 0 auto;
+text-align: center;
+margin-top: 50px;
+
+}
+
+#question-page {
+text-align: center;
+}
+
+#question {
+	margin: 0 auto;
+	background-color: white;
+	display: inline-block;
+}
+
+form {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.question-group {
+   background-color: rgba(255, 255, 255, .8);	
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   
+
+}
+
+fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 10% 20% 0% 7%;
+	min-height: 300px;
+	min-width: 300px;
+	border: 5px black;
+
+}
+
+label {
+	margin-bottom: 1em;
+	font-size: 1.9em;
+	text-align: left;
+}
+
+.answer {
+	width: 1.6em;
+	height: 1.6em;
+	vertical-align: middle;
+	text-align: left;
+	font-weight: 900;
+	
+}
+
+#js-submit-button {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	text-align: center;
+
+}
+
+#status-bar {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+#question-count, #score-count {
+	display: inline-block;
+	font-size: 1.6em;
+}
+
+#score-count {
+	float: right;
+}
+
+.feedback-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 17%;
+
+}
+
+#js-next-button {
+	margin: 1em auto;
+}
+
+#js-restart-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 10em;
+}
+
+.feedback-page h2 {
+	background-color: black;
+}
+
+@media only screen and (min-width: 360px) {
+
+  fieldset {
+
+  	min-width: 300px;
+  }
+
+}
+
+
+
+	
